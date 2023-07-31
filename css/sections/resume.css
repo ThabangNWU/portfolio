@@ -1,0 +1,101 @@
+.resume {
+    position: relative;
+    margin-block-start: 2rem;
+}
+
+.education__section, .experience__section {
+    margin-left: 2.1rem; 
+    margin-bottom: 4rem;
+}
+.title_icon {
+    display: flex;
+    gap: 1.5rem;
+}
+.experience_title {
+    font-size: 24px;
+    font-weight: var(--fw-700);
+    color: #fff;
+
+}
+.title_icon i{
+    color: var(--gauta);
+    background: var(--bg-gray-items);
+    font-size: 18px;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: -4px 8px 14px 0 #000000; 
+    border: 1px solid var(--light-gray-color);
+} 
+.title_icon h4{
+    color: var(--white-1);
+    font-size: 1.5rem;
+    padding-top: 1rem;   
+} 
+.education__list , .experience__list{
+    padding-inline-start: 5rem; 
+    position: relative;   
+}
+
+.education__list li, .experience__list {      
+    position: relative;
+}
+.education__item , .experience__item{
+    padding: .4rem;
+}
+.education__item h6 ,.experience__item h6{
+   font-size: 15px;
+   font-weight: var(--fw-700);
+   line-height: 19.5px;
+   margin: 0 0 7px;
+   text-align: left;   
+}
+.education__item p , .experience__item p {
+    font-size: 15px; 
+    font-weight: var(--fw-300);
+    color: var(--light_gray_color);
+    line-height: 24px;
+    text-align: left; 
+ }
+ .education__item time , .experience__item time {
+    font-size: 15px; 
+    font-weight: var(--fw-300);
+    color: var(--gauta);
+    line-height: 24px;
+    text-align: left; 
+ }
+
+.education__section::before {
+    position: absolute;
+    content: '';
+    border: 1px solid var(--gauta);
+}
+.education__section::before {
+    top: 9rem;
+    bottom: 15rem;
+    left: 3.5rem;
+}
+
+.experience__section::before {
+    position: absolute;
+    content: '';
+    border: 1px solid var(--gauta);
+}
+.experience__section::before {
+    top: 30rem;
+    bottom: -1rem;
+    left: 3.5rem;
+}
+.square_shape{
+    position: relative;
+}
+.square_shape::before{
+    content: '\25CF';
+    position: absolute;
+    color: var(--gauta);
+    font-size: 1.5rem;   
+}
+.square_shape::before {
+   left: -4rem;
+   top: -0.2rem;
+
+}
