@@ -1,8 +1,12 @@
 .resume {
     position: relative;
-    margin-block-start: 2rem;
+    margin-left: 2.1rem; 
 }
-
+@media (max-width:50rem){
+    .resume {
+        margin-inline: -0.1rem; 
+    }
+}
 .education__section, .experience__section {
     margin-left: 2.1rem; 
     margin-bottom: 4rem;

@@ -1,4 +1,6 @@
-
+.about {
+    width: 100%;
+}
 .about__text {
     color: var( --light_gray_color);
     font-size: var(--fs-6);    
@@ -13,7 +15,6 @@
    position: relative;  
    margin-inline: 5rem;
    margin-block: 5rem;
-
 } 
 
 @media(max-width :50rem)
