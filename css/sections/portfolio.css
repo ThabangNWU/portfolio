@@ -82,6 +82,8 @@
 
 .portfolio  {
   width: 75%;
+  position: relative;
+  left: 5rem;
   
 }  
 
@@ -203,9 +205,9 @@
     display: block;
 }
 .project__image__preview img{
-    width: 134.6%;
+    width: 126%;
     position: relative;
-    left: -17.5%;    
+    left: -13%;    
    border-radius: 20px 20px 0px 0px;
 }
 .project__title__preview { 
